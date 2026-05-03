@@ -18,16 +18,18 @@ My work centres around a consistent theme: probabilistic modeling, uncertainty q
 
 ## 📂 Featured Projects
 
-### 🏦 [Credit Risk Default Prediction](https://github.com/pratiksingh1296/credit-risk-modeling)
+### 🏦 [Credit Risk Default Prediction](https://github.com/pratiksingh1296/credit-risk-modeling) · [🚀 Live Demo](https://credit-risk-default-predictor.streamlit.app/)
+
+
 End-to-end credit risk pipeline predicting loan default probability on the Home Credit dataset.
-- Platt Scaling calibration reducing ECE from 0.041 → 0.004
+- Platt Scaling calibration reducing ECE from 0.346 → 0.001 — 99.7% improvement
 - Risk bucketing (Low / Medium / High / Very High) aligned with lending policy
 - SHAP explainability for individual applicant decisions and regulatory transparency
 - `Python` `Scikit-learn` `XGBoost` `SHAP`
 
 ---
 
-### ⚡ [Electricity Demand Forecasting](https://github.com/pratiksingh1296/electricity-demand-forecasting)
+### ⚡ [Electricity Demand Forecasting](https://github.com/pratiksingh1296/electricity-demand-forecasting) · [🚀 Live Demo](https://grid-demand-forecast.streamlit.app/)
 Hourly electricity demand forecasting on real EIA grid data (Texas, 2018–2023).
 - Time-series feature engineering: lag features, rolling stats, cyclical encoding
 - XGBoost achieving 2.40% MAPE — 48% improvement over seasonal naive baseline
@@ -36,7 +38,7 @@ Hourly electricity demand forecasting on real EIA grid data (Texas, 2018–2023)
 
 ---
 
-### ⚽ [Premier League Probabilistic Forecasting](https://github.com/pratiksingh1296/premier-league-forecasting)
+### ⚽ [Premier League Probabilistic Forecasting](https://github.com/pratiksingh1296/premier-league-forecasting) · [🚀 Live Demo](https://pl-match-predictor.streamlit.app/)
 Probabilistic match outcome modeling with explicit focus on draw modeling.
 - Calibrated Home / Draw / Away probabilities using Platt Scaling
 - Expected Points (xPts) league table from match-level probabilities
@@ -53,6 +55,7 @@ Probabilistic match outcome modeling with explicit focus on draw modeling.
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 ---
 
