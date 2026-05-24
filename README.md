@@ -16,6 +16,15 @@ My work centres around a consistent theme: probabilistic modeling, uncertainty q
 
 ---
 
+## Currently Building
+
+- Persistent-memory AI assistants
+- Retrieval-augmented generation (RAG) systems
+- Vector databases and semantic search
+- Applied machine learning systems
+  
+---
+
 ## 📂 Featured Projects
 
 ### 🏦 [Credit Risk Default Prediction](https://github.com/pratiksingh1296/credit-risk-modeling) · [🚀 Live Demo](https://credit-risk-default-predictor.streamlit.app/)
@@ -26,6 +35,18 @@ End-to-end credit risk pipeline predicting loan default probability on the Home 
 - Risk bucketing (Low / Medium / High / Very High) aligned with lending policy
 - SHAP explainability for individual applicant decisions and regulatory transparency
 - `Python` `Scikit-learn` `XGBoost` `SHAP`
+
+---
+
+### 🧠 [Context-Aware AI Assistant](https://github.com/pratiksingh1296/context-aware-ai-assistant) · [🚀 Live Demo](https://memory-chatbot-ai.streamlit.app/)
+
+Conversational AI assistant with persistent semantic memory, multi-session chat management, and real-time web retrieval.
+
+- Long-term memory powered by ChromaDB vector storage
+- Context-aware retrieval across independent chat sessions
+- Real-time web search integration using Tavily and LangChain agents
+- Streamlit deployment with caching, session management, and automatic chat organization
+- `Python` `LangChain` `ChromaDB` `Groq` `Streamlit`
 
 ---
 
@@ -56,6 +77,9 @@ Probabilistic match outcome modeling with explicit focus on draw modeling.
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=flat)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-6E56CF?style=flat)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat)
 
 ---
 
