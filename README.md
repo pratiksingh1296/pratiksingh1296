@@ -40,12 +40,12 @@ End-to-end credit risk pipeline predicting loan default probability on the Home 
 
 ### 🧠 [Context-Aware AI Assistant](https://github.com/pratiksingh1296/context-aware-ai-assistant) · [🚀 Live Demo](https://memory-chatbot-ai.streamlit.app/)
 
-Conversational AI assistant with persistent semantic memory, multi-session chat management, and real-time web retrieval.
+Conversational AI assistant featuring persistent memory, multi-session chat management, and real-time web retrieval.
 
-- Long-term memory powered by ChromaDB vector storage
-- Context-aware retrieval across independent chat sessions
-- Real-time web search integration using Tavily and LangChain agents
-- Streamlit deployment with caching, session management, and automatic chat organization
+- Three-layer memory architecture combining session history, semantic vector memory, and LLM-powered structured fact extraction
+- Automatic user profiling with semantic deduplication to improve long-term memory quality across conversations
+- Real-time web search integration using Tavily, LangChain agents, and tool-augmented reasoning
+- Streamlit deployment with caching, session persistence, and automated chat organization
 - `Python` `LangChain` `ChromaDB` `Groq` `Streamlit`
 
 ---
@@ -70,16 +70,29 @@ Probabilistic match outcome modeling with explicit focus on draw modeling.
 
 ## 🛠️ Tech Stack
 
+### Languages & Core
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white)
+
+### Machine Learning
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
+![SHAP](https://img.shields.io/badge/SHAP-FF6B6B?style=flat)
+
+### AI & LLM Engineering
 ![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=flat)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-6E56CF?style=flat)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat)
+![Llama](https://img.shields.io/badge/Llama_3.3-0467DF?style=flat)
+
+### Tools & Deployment
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
 ---
 
