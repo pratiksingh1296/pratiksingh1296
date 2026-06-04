@@ -42,10 +42,12 @@ End-to-end credit risk pipeline predicting loan default probability on the Home 
 
 Conversational AI assistant featuring persistent memory, multi-session chat management, and real-time web retrieval.
 
-- Three-layer memory architecture combining session history, semantic vector memory, and LLM-powered structured fact extraction
+- Four-layer memory architecture combining session history, semantic vector memory, LLM-powered structured fact extraction structured and conversation summarization
 - Automatic user profiling with semantic deduplication to improve long-term memory quality across conversations
+- Running conversation summaries to reduce prompt growth and preserve long-term context
 - Real-time web search integration using Tavily, LangChain agents, and tool-augmented reasoning
 - Streamlit deployment with caching, session persistence, and automated chat organization
+- Centralized debug logging and modular memory architecture
 - `Python` `LangChain` `ChromaDB` `Groq` `Streamlit`
 
 ---
