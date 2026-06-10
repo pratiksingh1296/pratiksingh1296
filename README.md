@@ -1,8 +1,8 @@
 # Hi, I'm Pratik 👋
 
-I'm a self-taught Data Scientist based in Navi Mumbai, focused on building ML systems where predictions are **reliable, explainable, and directly useful for decisions** — not just accurate on a leaderboard.
+I'm a self-taught Data Scientist and AI Engineer based in Navi Mumbai, focused on building machine learning and AI systems that are reliable, explainable, and useful in real-world decision making.
 
-My work centres around a consistent theme: probabilistic modeling, uncertainty quantification, and calibrated predictions that translate into real business logic.
+My work spans predictive modeling, uncertainty quantification, retrieval-augmented generation (RAG), and memory-augmented AI systems.
 
 ---
 
@@ -13,14 +13,16 @@ My work centres around a consistent theme: probabilistic modeling, uncertainty q
 - **Explainability** — SHAP-based model transparency for regulated domains
 - **Time-series forecasting** — demand forecasting with feature engineering
 - **Simulation** — Monte Carlo methods for season-level uncertainty
+- **Applied AI systems** — retrieval-augmented generation (RAG), semantic search, vector databases, and long-term memory architectures
 
 ---
 
-## Currently Building
+## Currently Exploring
 
-- Persistent-memory AI assistants
 - Retrieval-augmented generation (RAG) systems
+- Long-term memory architectures
 - Vector databases and semantic search
+- AI evaluation and model routing
 - Applied machine learning systems
   
 ---
@@ -42,13 +44,14 @@ End-to-end credit risk pipeline predicting loan default probability on the Home 
 
 Conversational AI assistant featuring persistent memory, multi-session chat management, and real-time web retrieval.
 
-- Four-layer memory architecture combining session history, semantic vector memory, LLM-powered structured fact extraction structured and conversation summarization
-- Automatic user profiling with semantic deduplication to improve long-term memory quality across conversations
+- Four-layer memory architecture combining session memory, semantic vector retrieval, structured fact memory, and conversation summarization
+- Automatic user profiling with semantic deduplication and memory conflict resolution to maintain accurate long-term user profiles
 - Running conversation summaries to reduce prompt growth and preserve long-term context
+- Intelligent model routing using lightweight and large LLMs to balance latency, cost, and response quality
 - Real-time web search integration using Tavily, LangChain agents, and tool-augmented reasoning
 - Streamlit deployment with caching, session persistence, and automated chat organization
-- Centralized debug logging and modular memory architecture
-- `Python` `LangChain` `ChromaDB` `Groq` `Streamlit`
+- Centralized debug logging and modular memory architecture  
+- `Python` `LangChain` `PostgreSQL` `pgvector` `Groq` `Streamlit`
 
 ---
 
@@ -86,14 +89,19 @@ Probabilistic match outcome modeling with explicit focus on draw modeling.
 
 ### AI & LLM Engineering
 ![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=flat)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-6E56CF?style=flat)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat)
 ![Llama](https://img.shields.io/badge/Llama_3.3-0467DF?style=flat)
+![SentenceTransformers](https://img.shields.io/badge/Sentence_Transformers-FF6F00?style=flat)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat)
+![Tavily](https://img.shields.io/badge/Tavily-1E90FF?style=flat)
+
+### Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
 ### Tools & Deployment
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
 ---
