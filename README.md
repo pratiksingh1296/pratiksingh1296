@@ -64,13 +64,16 @@ Hourly electricity demand forecasting on real EIA grid data (Texas, 2018–2023)
 
 ---
 
-### ⚽ [Premier League Probabilistic Forecasting](https://github.com/pratiksingh1296/premier-league-forecasting) · [🚀 Live Demo](https://pl-match-predictor.streamlit.app/)
-Probabilistic match outcome modeling with explicit focus on draw modeling.
-- Calibrated Home / Draw / Away probabilities using Platt Scaling
-- Expected Points (xPts) league table from match-level probabilities
-- 10,000 Monte Carlo season simulations for title, top-4, and relegation probabilities
-- `Python` `XGBoost` `Monte Carlo Simulation`
+### ⚽ [Football Momentum Forecasting](https://github.com/pratiksingh1296/football-momentum-forecasting) · [🚀 Live Demo](YOUR_STREAMLIT_URL_HERE)
 
+NLP system predicting football match momentum from live commentary text, built through five controlled experiments rather than a single model.
+
+- Fine-tuned DistilBERT achieving 91% macro F1 (up from a 72% baseline) by diagnosing and fixing a home/away confound in raw commentary text
+- Systematic ablation studies isolating the effect of entity anonymization, structured feature fusion, and temporal window size, including two honestly-reported null/negative results
+- Boundary sensitivity analysis linking residual model errors to inherent label ambiguity, not just model weakness
+- Full deployment: model hosted on Hugging Face Hub, interactive Streamlit replay demo with live momentum visualization
+- `Python` `PyTorch` `Transformers (DistilBERT)` `LightGBM` `Streamlit` `Hugging Face Hub`
+  
 ---
 
 ## 🛠️ Tech Stack
@@ -82,10 +85,16 @@ Probabilistic match outcome modeling with explicit focus on draw modeling.
 ### Machine Learning
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat)
+![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=flat)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
 ![SHAP](https://img.shields.io/badge/SHAP-FF6B6B?style=flat)
+
+### Deep Learning & NLP
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/🤗_Transformers-FFD21E?style=flat)
+![DistilBERT](https://img.shields.io/badge/DistilBERT-FFCA28?style=flat)
 
 ### AI & LLM Engineering
 ![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=flat)
@@ -101,6 +110,7 @@ Probabilistic match outcome modeling with explicit focus on draw modeling.
 
 ### Tools & Deployment
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Hugging Face Hub](https://img.shields.io/badge/🤗_Hub-FFD21E?style=flat)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
