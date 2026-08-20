@@ -19,11 +19,11 @@ My work spans predictive modeling, uncertainty quantification, retrieval-augment
 
 ## Currently Exploring
 
-- Retrieval-augmented generation (RAG) systems
-- Long-term memory architectures
-- Vector databases and semantic search
-- AI evaluation and model routing
-- Applied machine learning systems
+- Production ML systems and MLOps
+- CI/CD for machine learning applications
+- AI evaluation and reliability
+- Advanced RAG and agent architectures
+- Uncertainty-aware and interpretable ML
   
 ---
 
@@ -31,13 +31,13 @@ My work spans predictive modeling, uncertainty quantification, retrieval-augment
 
 ### 🏦 [Credit Risk Default Prediction](https://github.com/pratiksingh1296/credit-risk-modeling) · [🚀 Live Demo](https://credit-risk-default-predictor.streamlit.app/)
 
-
-End-to-end credit risk pipeline predicting loan default probability on the Home Credit dataset.
-- Platt Scaling calibration reducing ECE from 0.346 → 0.001 — 99.7% improvement
-- Risk bucketing (Low / Medium / High / Very High) aligned with lending policy
-- SHAP explainability for individual applicant decisions and regulatory transparency
-- `Python` `Scikit-learn` `XGBoost` `SHAP`
-
+- Probability calibration: Platt scaling reduced XGBoost ECE from 0.2528 to 0.0025 while improving ROC-AUC from 0.760 to 0.763
+- Compared calibration strategies across Logistic Regression and XGBoost, with calibrated models achieving ECE values of 0.0026 and 0.0025 respectively
+- Risk-based decisioning translating calibrated default probabilities into Low / Medium / High / Very High risk tiers and lending decisions
+- SHAP-based applicant-level explanations showing which features push predictions toward higher or lower risk
+- Production-style deployment with a FastAPI inference API, Docker, Render, and Streamlit frontend
+- `Python` `Scikit-learn` `XGBoost` `SHAP` `FastAPI` `Docker`
+  
 ---
 
 ### 🧠 [Context-Aware AI Assistant](https://github.com/pratiksingh1296/context-aware-ai-assistant) · [🚀 Live Demo](https://memory-chatbot-ai.streamlit.app/)
@@ -64,7 +64,7 @@ Hourly electricity demand forecasting on real EIA grid data (Texas, 2018–2023)
 
 ---
 
-### ⚽ [Football Momentum Forecasting](https://github.com/pratiksingh1296/football-momentum-forecasting) · [🚀 Live Demo](YOUR_STREAMLIT_URL_HERE)
+### ⚽ [Football Momentum Forecasting](https://github.com/pratiksingh1296/football-momentum-forecasting) · [🚀 Live Demo](https://football-momentum-forecasting.streamlit.app/)
 
 NLP system predicting football match momentum from live commentary text, built through five controlled experiments rather than a single model.
 
@@ -108,8 +108,10 @@ NLP system predicting football match momentum from live commentary text, built t
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
-### Tools & Deployment
+### APIs, Tools & Deployment
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Hugging Face Hub](https://img.shields.io/badge/🤗_Hub-FFD21E?style=flat)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
